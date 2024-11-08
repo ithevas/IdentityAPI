@@ -130,6 +130,6 @@ app.delete("/identify/:id", async (req, res) => {
   res.json({ message: "User deleted" });
 });
 
-app.listen(3000, () => {
-  console.log("Server is running on port 3000");
+app.listen(1000, () => {
+  console.log("Server is running on port 1000");
 });
